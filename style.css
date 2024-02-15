@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 40%;
+    border: 2px solid;
+    margin: auto;
+}
