@@ -5,8 +5,38 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #FF9400;
+}
+
 .main {
-    width: 40%;
-    border: 2px solid;
+    width: 30%;
+    /* height: 60dvh; */
+    /* border: 2px solid; */
     margin: auto;
+    background: black;
+}
+
+.screen>input {
+
+    width: 100%;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+}
+
+
+.buttons{
+    width: 100%;
+    /* border: 2px solid pink; */
+}
+
+.buttons button{
+    width: 20%;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+
 }
