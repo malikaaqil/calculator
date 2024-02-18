@@ -1,19 +1,29 @@
-let display = document.querySelector(".display");
+
+let display = document.getElementById("outputDisplay");
+let keys = document.querySelectorAll("button");
+
+let keysArray = Array.from(keys);
+
+let str = "";
 
 
-function appendToDisplay(input){
+keysArray.forEach(btn => {
 
-    display.value += input;
+    btn.addEventListener("click", e => {
+        
+// console.log(e);
+        if (e.target.classList.contains("clear")) {
+            str = str.substring(0, str.length - 1);
+            display.value = str;
 
-}
-
-function clearDisplay(){
+        }
+        
+        else{
+            str += e.target.innerHTML;
+            display.value = str;
+        }
+        
+    })
     
-}
 
-function deleteVal(){
-
-}
-function calculate(){
-
-}
+})

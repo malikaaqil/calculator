@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-    /* width: 30%; */
+    width: 380px;
     padding: 1.5rem;
     border-radius: 25px;
     background: black;
@@ -25,14 +25,14 @@ body {
 
 .display {
 
-    width: 330px;
-    font-size: 3rem;
+    width: 100%;
+    font-size: 4rem;
     background-color: black;
     color: white;
     /* border: 2px solid red; */
     /* margin-top: 3rem; */
     border: none;
-    padding: 2rem;
+    /* padding: 2rem; */
     text-align: right;
 
 }
