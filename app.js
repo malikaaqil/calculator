@@ -6,24 +6,29 @@ let keysArray = Array.from(keys);
 
 let str = "";
 
-
 keysArray.forEach(btn => {
 
     btn.addEventListener("click", e => {
-        
-// console.log(e);
+
         if (e.target.classList.contains("clear")) {
             str = str.substring(0, str.length - 1);
             display.value = str;
 
+        } else if (e.target.innerHTML == "AC") {
+            str = ""
+            display.value = str;
+
+        } else if (e.target.innerHTML == "=") {
+            str = eval(str)
+            display.value = str;
+
         }
-        
-        else{
+        else {
             str += e.target.innerHTML;
             display.value = str;
+
         }
-        
+
     })
-    
 
 })
