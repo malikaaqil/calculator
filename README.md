@@ -6,7 +6,7 @@ Welcome to Calculator, your go-to tool for efficient mathematical calculations.
 
 ## Live URL
 
-Experience the power of Calculator with our live URL (https://malikaaqil.github.io/calculator/).
+Experience the power of Calculator with our live URL [here](https://malikaaqil.github.io/calculator/).
 
 ## Features
 
