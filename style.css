@@ -53,8 +53,8 @@ button {
     margin-top: 10px;
 }
 
-.container .zero {
-    width: 155px;
+.container .equal{
+    width: 145px;
     height: auto;
     border-radius: 40px;
 }
@@ -103,8 +103,8 @@ button {
         font-size: 1.1rem;
     }
 
-    .container .zero {
-        width: 110px;
+    .container .equal {
+        width: 100px;
     }
 
     .display {
